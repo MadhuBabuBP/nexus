@@ -2,7 +2,7 @@
   hosts: all
   become: yes
   vars:
-    URL: URL-LOC
+    URL: http://nagiosserver.com
   tasks:
     - name: Remove the old war files
       file:
